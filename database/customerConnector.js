@@ -35,3 +35,13 @@ updateCustomer = async (id, customer) => {
     { new: true }
   );
 };
+
+deleteCustomer = async id =>{
+  return await Customer.findByIdAndRemove(id);
+};
+
+module.exports.getCustomer = getCustomer;
+module.exports.getCustomers = getCustomers;
+module.exports.createCustomer = createCustomer;
+module.exports.updateCustomer = updateCustomer;
+module.exports.deleteCustomer = deleteCustomer;

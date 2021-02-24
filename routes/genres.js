@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const database = require("../assets/genreConnector");
+const database = require("../database/genreConnector");
 const Joi = require("joi");
 
 

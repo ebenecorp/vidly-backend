@@ -41,3 +41,5 @@ module.exports.getGenres = getGenres;
 module.exports.createGenre = createGenre;
 module.exports.updateGenre = updateGenre;
 module.exports.deleteGenre = deleteGenre;
+module.exports.genreSchema = genreSchema;
+module.exports.Genre = Genre;
